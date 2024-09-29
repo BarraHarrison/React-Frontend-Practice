@@ -1,0 +1,56 @@
+.settings-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.settings-content {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.settings-tabs {
+    width: 250px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    color: #000;
+}
+
+.tab:hover {
+    background-color: #e0e0e0;
+}
+
+.tab.active {
+    background-color: coral;
+    color: #fff;
+}
+
+.tab svg {
+    margin-right: 0.75rem;
+}
+
+.settings-panel {
+    flex-grow: 1;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.settings-panel h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
